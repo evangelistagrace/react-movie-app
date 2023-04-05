@@ -16,6 +16,7 @@ const App = () => {
         setMovies(data.Search)
     }
 
+    //runs everytime component loads
     useEffect(() => {
         searchMovies('batman')
     }, [])
